@@ -1,0 +1,10 @@
+[Nemo Action]
+Name=Open in Other terminal
+Comment=Any Terminal
+
+Exec=/home/haruka/bin/terminal-select.zsh "%P"
+
+Icon-Name=utility-terminal
+
+Selection=none
+Extensions=any;

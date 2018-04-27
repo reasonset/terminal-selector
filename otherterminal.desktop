@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+Icon=utilities-terminal
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;
+Actions=openTerminal;
+
+[Desktop Action openTerminal]
+Name=Open other terminal here
+Exec=terminal-select.zsh %U
+Icon=utilities-terminal

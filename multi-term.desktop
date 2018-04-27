@@ -1,0 +1,93 @@
+[Desktop Entry]
+Version=1.0
+Name=Choise my terminal
+GenericName=Terminal of selected one
+GenericName[ja]=端末を選択
+Comment=Terminal of selected one
+Comment[ja]=端末を選択
+Exec=/home/haruka/bin/terminal-select.zsh
+Terminal=false
+Icon=utilities-terminal
+Type=Application
+Categories=Qt;System;TerminalEmulator;
+Actions=Gterm;XF4term;Konsole;KonsoleNT;KonsoleNW;Qterm;QtermDropdown;Sakura;Retro;Terminology;SimpleTerminal;LXTerminal;MateTerminal;PantheonTerminal;URXVT;Terminator;
+
+[Desktop Action Gterm]
+Name=Gnome Terminal
+Exec=gnome-terminal
+Icon=utilities-terminal
+
+[Desktop Action XF4term]
+Name=XFce4 Terminal
+Exec=xfce4-terminal
+Icon=utilities-terminal
+
+[Desktop Action Konsole]
+Name=Konsole
+Exec=konsole
+Icon=utilities-terminal
+
+[Desktop Action KonsoleNT]
+Name=Konsole New Tab
+Exec=konsole --new-tab
+Icon=utilities-terminal
+
+[Desktop Action KonsoleNW]
+Name=Konsole New Window
+Exec=konsole
+Icon=utilities-terminal
+
+[Desktop Action Qterm]
+Name=QTerminal
+Exec=qterminal
+Icon=utilities-terminal
+
+[Desktop Action QtermDropdown]
+Name=Drop-down terminal
+Exec=qterminal --drop
+Icon=utilities-terminal
+
+[Desktop Action Sakura]
+Name=Sakura Terminal
+Exec=sakura
+Icon=utilities-terminal
+
+[Desktop Action Retro]
+Icon=cool-retro-term
+Name=Cool Retro Term
+Exec=cool-retro-term
+
+[Desktop Action Terminology]
+Name=Terminology
+Icon=terminology
+Exec=terminology
+
+[Desktop Action SimpleTerminal]
+Name=Simple Terminal (ST)
+Icon=utilities-terminal
+Exec=st
+
+[Desktop Action LXTerminal]
+Name=LX Terminal
+Icon=utilities-terminal
+Exec=lxterminal
+
+[Desktop Action MateTerminal]
+Name=MATE Terminal
+Icon=utilities-terminal
+Exec=mate-terminal
+
+[Desktop Action PantheonTerminal]
+Name=Pantheon Terminal
+Icon=utilities-terminal
+Exec=pantheon-terminal
+
+[Desktop Action URXVT]
+Name=RXVT Unicode
+Icon=utilities-terminal
+Exec=urxvt
+
+[Desktop Action Terminator]
+Name=RXVT Unicode
+Icon=utilities-terminal
+Exec=terminator
